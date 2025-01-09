@@ -1,0 +1,98 @@
+.testimonials-section {
+  padding: 4rem 1rem;
+  background: linear-gradient(
+      to bottom right,
+      rgba(12, 45, 87, 0.9),
+      rgba(193, 155, 41, 0.8)
+    ),
+    url("/public/testimonial.jpg") no-repeat center center/cover;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Fondo translúcido para resaltar sobre el background */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--detail1);
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-role {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.testimonial-controls {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.control-button {
+  background: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.control-button:hover {
+  background: var(--detail2);
+  transform: scale(1.1);
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .testimonials-section {
+    background: linear-gradient(
+        to bottom right,
+        rgba(12, 45, 87, 0.9),
+        rgba(193, 155, 41, 0.8)
+      ),
+      url("/public/testimonialmobile.jpg") no-repeat center center/cover;
+  }
+  .testimonial-text {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-name {
+    font-size: 1.25rem;
+  }
+
+  .testimonial-role {
+    font-size: 0.9rem;
+  }
+}

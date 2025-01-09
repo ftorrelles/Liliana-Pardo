@@ -1,0 +1,93 @@
+.contact {
+  /* background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 255, 0.5)
+  ); */
+  background-color: var(--transparent-color);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 4rem auto;
+  max-width: 1200px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  color: var(--text-dark);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+.contact-socials {
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.social-link {
+  font-size: 3rem;
+  color: var(--primary-color);
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: var(--secondary-color);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .contact {
+    margin: 1rem;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-description {
+    font-size: 0.9rem;
+  }
+  .contact-details {
+    gap: 2rem;
+  }
+  .contact-icon {
+    font-size: 1.8rem;
+  }
+
+  .social-link {
+    font-size: 1.8rem;
+  }
+}

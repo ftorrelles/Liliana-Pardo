@@ -1,0 +1,105 @@
+.footer {
+  background: var(--transparent-color); /* Fondo transparente */
+  backdrop-filter: blur(10px);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .footer-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+} */
+.footer-logo {
+  margin: auto;
+}
+
+.footer-description {
+  color: var(--text-dark);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links {
+  margin: 1rem 0;
+}
+
+.footer-links a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  display: block;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--secondary-color);
+}
+
+.footer-contact {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+.footer-contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: var(--secondary-color);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center; /* Centra los íconos */
+  gap: 1.5rem; /* Espacio entre íconos */
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  font-size: 1.8rem; /* Tamaño base de los íconos */
+  color: var(--text-dark);
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: var(--secondary-color);
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-description {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    font-size: 1rem;
+  }
+
+  .footer-socials {
+    gap: 1.5rem; /* Aumenta el espacio entre íconos en pantallas pequeñas */
+  }
+
+  .social-icon {
+    font-size: 2rem; /* Hace los íconos más grandes en móvil */
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
+}

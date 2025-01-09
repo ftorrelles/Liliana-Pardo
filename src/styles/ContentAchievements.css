@@ -1,0 +1,119 @@
+.achievements-section {
+  padding: 4rem 1rem;
+  background: var(--background-light);
+  text-align: center;
+}
+
+.achievements-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.achievements-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.achievements-description {
+  font-size: 1.125rem;
+  color: var(--detail1);
+  margin-bottom: 2rem;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  counter-reset: achievements-counter;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.achievement-icon {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.achievement-details {
+  text-align: left;
+}
+
+.achievement-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.achievement-institution {
+  font-size: 1rem;
+  color: var(--detail1);
+}
+
+.achievement-year {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+/* Acordeón */
+.accordion-container {
+  text-align: center;
+}
+
+.accordion-toggle {
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  background: var(--secondary-color);
+  color: var(--text-light);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.accordion-toggle:hover {
+  background: var(--primary-color);
+}
+
+.courses-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: var(--detail1);
+  margin-bottom: 0.5rem;
+}
+
+.course-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .achievement-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .achievement-title {
+    font-size: 1.15rem;
+  }
+
+  .accordion-toggle {
+    font-size: 1rem;
+  }
+}

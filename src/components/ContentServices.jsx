@@ -4,6 +4,8 @@ import {
   FaUsers,
   FaChalkboardTeacher,
   FaBriefcaseMedical,
+  FaHeart,
+  FaPaw,
 } from "react-icons/fa";
 import "../styles/ContentServices.css";
 
@@ -26,20 +28,37 @@ const services = [
     whatsappMessage: "Quiero conocer acerca de las Terapias Familiares",
   },
   {
+    id: 4,
+    title: "Ayuda Psicosocial",
+    description:
+      "Apoyo en problemas como adicciones, depresión, ansiedad, problemas en la infancia, trastornos adaptativos y estrés postraumático.",
+    icon: <FaBriefcaseMedical />,
+    whatsappMessage: "Quiero conocer acerca de la Ayuda Psicosocial",
+  },
+  {
+    id: 5,
+    title: "Problemas de Pareja",
+    description:
+      "Terapias enfocadas en mejorar la comunicación y resolver conflictos en relaciones de pareja.",
+    icon: <FaUsers />,
+    whatsappMessage: "Quiero conocer acerca de los Problemas de Pareja",
+  },
+  {
+    id: 6,
+    title: "Mascotas de Compañía (Soporte Emocional)",
+    description:
+      "Integración de mascotas para apoyar el bienestar emocional y psicológico.",
+    icon: <FaBriefcaseMedical />,
+    whatsappMessage:
+      "Quiero conocer acerca del servicio de Mascotas de Compañía",
+  },
+  {
     id: 3,
     title: "Capacitaciones",
     description:
       "Formación en competencias laborales y bienestar para equipos interdisciplinarios.",
     icon: <FaChalkboardTeacher />,
     whatsappMessage: "Quiero conocer acerca de las Capacitaciones",
-  },
-  {
-    id: 4,
-    title: "Protocolos Psicosociales",
-    description:
-      "Diseño de planes para la atención integral de poblaciones vulnerables.",
-    icon: <FaBriefcaseMedical />,
-    whatsappMessage: "Quiero conocer acerca de los Protocolos Psicosociales",
   },
 ];
 

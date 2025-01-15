@@ -1,7 +1,7 @@
 .home-hero {
   position: relative;
   height: 100vh; /* Toma todo el alto de la pantalla */
-  background: url("/public/home1.jpg") no-repeat center center/cover; /* Cambia el enlace por una imagen real */
+  background: url("/public/home2.png") no-repeat center center/cover; /* Cambia el enlace por una imagen real */
 }
 
 .hero-overlay {

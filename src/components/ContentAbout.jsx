@@ -6,7 +6,7 @@ const ContentAbout = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="about2.png" alt="Dra. Liliana Pardo" />
+          <img src="about2.jpg" alt="Dra. Liliana Pardo" />
         </div>
         <div className="about-content">
           <h2 className="about-title">Conoce a la Dra. Liliana Pardo</h2>
@@ -18,10 +18,12 @@ const ContentAbout = () => {
           </p>
           <p className="about-highlights">
             Su trayectoria incluye la capacitación en competencias laborales, el
-            acompañamiento terapéutico individual y familiar, y la atención a
-            poblaciones vulnerables. Su compromiso con el bienestar emocional y
-            social la ha llevado a ser referente en el diseño de estrategias de
-            rehabilitación y desarrollo comunitario.
+            acompañamiento terapéutico individual y familiar, ayuda a personas
+            con problemáticas como adicciones, depresión, ansiedad, problemas en
+            la infancia, trastornos adaptativos, estrés
+            postraumático, entre otros. Su compromiso con el bienestar emocional
+            y social la ha llevado a ser referente en el diseño de estrategias
+            de rehabilitación y desarrollo comunitario.
           </p>
         </div>
       </div>

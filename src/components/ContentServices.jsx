@@ -48,7 +48,7 @@ const services = [
     title: "Mascotas de Compañía (Soporte Emocional)",
     description:
       "Integración de mascotas para apoyar el bienestar emocional y psicológico.",
-    icon: <FaBriefcaseMedical />,
+    icon: <FaPaw />,
     whatsappMessage:
       "Quiero conocer acerca del servicio de Mascotas de Compañía",
   },

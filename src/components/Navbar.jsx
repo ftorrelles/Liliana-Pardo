@@ -55,6 +55,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <div className="navbar-slogan">
+        <h3>Ser, sanar, crecer</h3>
+      </div>
     </nav>
   );
 };

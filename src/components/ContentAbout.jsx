@@ -6,7 +6,7 @@ const ContentAbout = () => {
     <section className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img src="about2.jpg" alt="Dra. Liliana Pardo" />
+          <img src="liliana2.jpg" alt="Dra. Liliana Pardo" />
         </div>
         <div className="about-content">
           <h2 className="about-title">Conoce a la Dra. Liliana Pardo</h2>

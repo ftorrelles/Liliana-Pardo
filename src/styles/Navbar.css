@@ -8,6 +8,12 @@
   backdrop-filter: blur(10px);
 }
 
+.navbar-slogan {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+  text-align: center;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;

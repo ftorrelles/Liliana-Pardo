@@ -4,7 +4,6 @@ import {
   FaUsers,
   FaChalkboardTeacher,
   FaBriefcaseMedical,
-  FaHeart,
   FaPaw,
 } from "react-icons/fa";
 import "../styles/ContentServices.css";
@@ -65,7 +64,7 @@ const services = [
 const ContentServices = () => {
   const sendToWhatsApp = (message) => {
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/+573245630864?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/+573017680417?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
 

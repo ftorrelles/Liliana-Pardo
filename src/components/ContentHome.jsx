@@ -2,6 +2,12 @@ import React from "react";
 import "../styles/ContentHome.css";
 
 const ContentHome = () => {
+  const handleButton = () => {
+    window.open(
+      "https://wa.me/573017680417?text=Hola%20Dra.%20Liliana%20Pardo,%20me%20gustaría%20agendar%20una%20consulta",
+      "_blank"
+    );
+  };
   return (
     <>
       <div className="space-navbar-pages"></div>
@@ -12,7 +18,9 @@ const ContentHome = () => {
             <p className="hero-subtitle">
               La Dra. Liliana Pardo, experta en psicología clínica.
             </p>
-            <button className="cta-button">Agenda tu consulta</button>
+            <button onClick={handleButton} className="cta-button">
+              Agenda tu consulta
+            </button>
           </div>
         </div>
       </div>

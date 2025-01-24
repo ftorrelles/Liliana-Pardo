@@ -3,7 +3,8 @@ import {
   FaUserMd,
   FaUsers,
   FaChalkboardTeacher,
-  FaBriefcaseMedical,
+  FaHome,
+  FaPeopleArrows,
   FaPaw,
 } from "react-icons/fa";
 import "../styles/ContentServices.css";
@@ -14,7 +15,7 @@ const services = [
     id: 1,
     title: "Terapias Individuales",
     description:
-      "Atención personalizada para manejar emociones y superar retos personales.",
+      "Apoyo en problemas como adicciones, depresión, ansiedad, problemas en la infancia, trastornos adaptativos y estrés postraumático, entre otros.",
     icon: <FaUserMd />,
     whatsappMessage: "Quiero conocer acerca de las Terapias Individuales",
   },
@@ -27,26 +28,26 @@ const services = [
     whatsappMessage: "Quiero conocer acerca de las Terapias Familiares",
   },
   {
-    id: 4,
-    title: "Ayuda Psicosocial",
-    description:
-      "Apoyo en problemas como adicciones, depresión, ansiedad, problemas en la infancia, trastornos adaptativos y estrés postraumático.",
-    icon: <FaBriefcaseMedical />,
-    whatsappMessage: "Quiero conocer acerca de la Ayuda Psicosocial",
-  },
-  {
     id: 5,
     title: "Problemas de Pareja",
     description:
       "Terapias enfocadas en mejorar la comunicación y resolver conflictos en relaciones de pareja.",
-    icon: <FaUsers />,
+    icon: <FaPeopleArrows />,
     whatsappMessage: "Quiero conocer acerca de los Problemas de Pareja",
   },
   {
+    id: 4,
+    title: "Atención Psicosocial",
+    description: "Atención comunitaria, Retos sociales y de salud pública",
+    icon: <FaHome />,
+    whatsappMessage: "Quiero conocer acerca de la Atención Psicosocial",
+  },
+
+  {
     id: 6,
-    title: "Mascotas de Compañía (Soporte Emocional)",
+    title: "Mascotas de Compañía (Apoyo Emocional)",
     description:
-      "Integración de mascotas para apoyar el bienestar emocional y psicológico.",
+      "Realización de certificaciones de apoyo emocional y permisos para viajar con sus mascotas",
     icon: <FaPaw />,
     whatsappMessage:
       "Quiero conocer acerca del servicio de Mascotas de Compañía",
@@ -55,7 +56,7 @@ const services = [
     id: 3,
     title: "Capacitaciones",
     description:
-      "Formación en competencias laborales y bienestar para equipos interdisciplinarios.",
+      "talleres de promoción y prevención en problemáticas sociales y de interés en salud pública",
     icon: <FaChalkboardTeacher />,
     whatsappMessage: "Quiero conocer acerca de las Capacitaciones",
   },

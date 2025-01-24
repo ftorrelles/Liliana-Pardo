@@ -68,7 +68,7 @@ const Footer = () => {
               <i class="bx bxl-whatsapp-square"></i>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=61572433170250"
+              href="https://www.instagram.com/ser_sanar_crecer/"
               className="social-icon"
               target="_blank"
             >

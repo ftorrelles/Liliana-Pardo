@@ -3,7 +3,7 @@ import ContentHome from "../components/ContentHome";
 import ContentAbout from "../components/ContentAbout";
 import ContentServices from "../components/ContentServices";
 import ContentTestimonials from "../components/ContentTestimonials";
-import ContentBlog from "../components/ContentBlog";
+// import ContentBlog from "../components/ContentBlog";
 import ContentSchedule from "../components/ContentSchedule";
 import ContentContact from "../components/ContentContact";
 import ContentAchievements from "../components/ContentAchievements";
@@ -16,7 +16,7 @@ const Home = () => {
       <ContentAchievements />
       <ContentServices />
       <ContentTestimonials />
-      <ContentBlog />
+      {/* <ContentBlog /> */}
       <ContentSchedule />
       <ContentContact />
     </>

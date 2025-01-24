@@ -32,7 +32,7 @@ const ContentContact = () => {
               <i className="bx bxl-facebook-circle"></i>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=61572433170250"
+              href="https://www.instagram.com/ser_sanar_crecer/"
               className="social-link"
               target="_blank"
             >

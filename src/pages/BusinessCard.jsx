@@ -25,7 +25,7 @@ const BusinessCard = () => {
             <FaFacebook className="icon" /> Síguenos en Facebook
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=61572433170250"
+            href="https://www.instagram.com/ser_sanar_crecer/"
             target="_blank"
             className="card-business-button"
           >

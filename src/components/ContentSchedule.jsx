@@ -14,7 +14,7 @@ const ContentSchedule = () => {
         </div>
         <div className="schedule-calendar">
           <iframe
-            src="https://calendly.com/torrellesf93/cita-de-servicios"
+            src="https://calendly.com/sersanarcrecer/cita-de-servicios"
             className="calendly-iframe"
             title="Calendly Schedule"
           ></iframe>
